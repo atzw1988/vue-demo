@@ -15,7 +15,7 @@ const vueConfig = {
     ]
   },
   // publicPath: '/pda/',
-  publicPath: process.env.NODE_ENV === 'production' ? '/pda/' : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/' : '/',
 
   chainWebpack: (config) => {
     config.resolve.alias
